@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atelier Exemple — Maquette fictive de site pour peintre</title>
+  <meta name="description" content="Maquette de démonstration entièrement fictive d’un site pour peintre, réalisée par Thibault Carré. Ce n’est pas une entreprise réelle.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1a1714">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="../assets/fonts/cormorant-garamond-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+  <header class="site-header sticky-top">
+  <div class="fiction-banner" role="note">
+    <strong>Exemple fictif / Fictional example</strong>
+    — Ceci n’est pas une entreprise réelle. This is not a real business.
+  </div>
+
+    <div class="wrap header-inner">
+      <a class="brand" href="#accueil">
+        <span class="brand-name">Atelier Exemple</span>
+        <span class="brand-sub">Peinture &amp; finitions · établissement fictif</span>
+      </a>
+      <nav class="nav" aria-label="Navigation">
+        <a href="#metier">Le métier</a>
+        <a href="#finitions">Finitions</a>
+        <a href="#contact">Contact</a>
+        <span class="lang-switch" aria-label="Choix de la langue">
+          <span aria-current="page">FR</span>
+          <span class="sep" aria-hidden="true">/</span>
+          <a href="en/" lang="en" hreflang="en">EN</a>
+        </span>
+        <a class="btn btn-small" href="#contact">Demander un devis</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" tabindex="-1">
+    <section id="accueil" class="wrap hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">Peintre · maquette fictive</p>
+        <h1 id="hero-title">Un site clair, pour des murs soignés.</h1>
+        <p class="hero-lead">Atelier Exemple est un peintre imaginaire, créé pour cette maquette. Le site montre l’essentiel&nbsp;: le métier, les finitions, et un moyen simple de demander un devis.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Demander un devis</a>
+          <a class="btn" href="#metier" class="btn btn-ghost">Voir le métier</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img
+          src="img/bucket-720.webp"
+          srcset="img/bucket-720.webp 720w, img/bucket-1100.webp 1100w"
+          sizes="(min-width: 860px) 42vw, 100vw"
+          width="1100"
+          height="856"
+          alt="Pinceau posé sur un seau de peinture blanche, photo d’illustration.">
+        <figcaption>Photo d’illustration (CC0). Ce n’est pas un chantier réel.</figcaption>
+      </figure>
+    </section>
+
+    <section id="metier" class="wrap section" aria-labelledby="metier-title">
+      <header class="section-head">
+        <p class="eyebrow">Le métier</p>
+        <h2 id="metier-title">Peinture intérieure et finitions</h2>
+        <p>Des pages courtes, lisibles sur téléphone, pour expliquer le travail et inviter à demander un devis. Les textes ci-dessous sont des exemples, inventés pour la maquette.</p>
+      </header>
+      <div class="offer">
+        <article>
+          <h3>Intérieurs</h3>
+          <p>Préparation des supports et application de la peinture dans les pièces de la maison.</p>
+        </article>
+        <article>
+          <h3>Finitions</h3>
+          <p>Un rendu soigné, avec des teintes et des matières choisies ensemble.</p>
+        </article>
+        <article>
+          <h3>Demande de devis</h3>
+          <p>Un contact simple, pour décrire le projet et recevoir une réponse.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="finitions" class="wrap section" aria-labelledby="finitions-title">
+      <header class="section-head">
+        <p class="eyebrow">Matières</p>
+        <h2 id="finitions-title">Textures d’illustration</h2>
+        <p>Ces images sont des textures libres de droits (CC0). Elles n’illustrent aucun chantier réel et n’appartiennent à aucune entreprise présentée ici.</p>
+      </header>
+      <ul class="swatches">
+        <li>
+          <figure class="swatch">
+            <img src="img/cream-640.webp" srcset="img/cream-640.webp 640w, img/cream-960.webp 960w" sizes="(min-width: 800px) 22vw, 45vw" width="960" height="960" alt="Texture de mur crème, illustration CC0.">
+            <figcaption>Enduit crème</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="swatch">
+            <img src="img/brown-640.webp" srcset="img/brown-640.webp 640w, img/brown-960.webp 960w" sizes="(min-width: 800px) 22vw, 45vw" width="960" height="960" alt="Texture de mur brun brossé, illustration CC0.">
+            <figcaption>Peinture brossée</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="swatch">
+            <img src="img/burgundy-640.webp" srcset="img/burgundy-640.webp 640w, img/burgundy-960.webp 960w" sizes="(min-width: 800px) 22vw, 45vw" width="960" height="960" alt="Texture de plâtre bordeaux, illustration CC0.">
+            <figcaption>Plâtre bordeaux</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="swatch">
+            <img src="img/grey-640.webp" srcset="img/grey-640.webp 640w, img/grey-960.webp 960w" sizes="(min-width: 800px) 22vw, 45vw" width="960" height="960" alt="Texture de plâtre gris strié, illustration CC0.">
+            <figcaption>Plâtre gris</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section class="wrap section" aria-labelledby="etapes-title">
+      <header class="section-head">
+        <p class="eyebrow">Parcours</p>
+        <h2 id="etapes-title">Trois étapes, sur le papier</h2>
+        <p>Un enchaînement simple, montré ici à titre d’exemple. Aucun délai ni tarif n’est indiqué, parce que cette entreprise n’existe pas.</p>
+      </header>
+      <ol class="steps">
+        <li>
+          <p class="step-n" aria-hidden="true">1</p>
+          <h3>Vous décrivez le projet</h3>
+          <p>La pièce, le support, ce que vous souhaitez faire.</p>
+        </li>
+        <li>
+          <p class="step-n" aria-hidden="true">2</p>
+          <h3>On en discute</h3>
+          <p>Les détails se précisent, pour que le devis soit clair.</p>
+        </li>
+        <li>
+          <p class="step-n" aria-hidden="true">3</p>
+          <h3>Vous recevez un devis</h3>
+          <p>Une proposition écrite, à examiner tranquillement.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact" class="wrap section" aria-labelledby="contact-title">
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Demander un devis</h2>
+          <p>Sur un vrai site, ce formulaire servirait à écrire à l’atelier. Ici, il est désactivé&nbsp;: aucun message n’est envoyé.</p>
+          <p class="note">Adresse fictive, domaine de démonstration réservé&nbsp;:<br>
+            <span class="fake-mail">contact@atelier-exemple.example</span></p>
+        </div>
+        <form action="#" method="post" aria-describedby="form-disabled-msg">
+          <p id="form-disabled-msg" class="form-disabled-msg">Formulaire désactivé — maquette fictive. Rien n’est transmis.</p>
+          <label>Nom
+            <input type="text" name="name" autocomplete="name" disabled>
+          </label>
+          <label>E-mail
+            <input type="email" name="email" autocomplete="email" disabled>
+          </label>
+          <label>Votre projet
+            <textarea name="message" disabled></textarea>
+          </label>
+          <button class="btn" type="submit" disabled>Envoyer la demande</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Atelier Exemple — établissement fictif. Maquette réalisée par <a href="../">Thibault Carré</a>.</p>
+      <p><a href="../credits.html">Crédits des images (CC0)</a> · <a href="en/" lang="en" hreflang="en">English</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,19 +1,18 @@
 # Crédits
 
-## Photos (licences libres, téléchargées et optimisées localement en WebP)
+## Polices (auto-hébergées, SIL Open Font License 1.1)
 
-| Fichier(s) | Sujet | Photographe | Source | Licence |
+- Cormorant Garamond — Christian Thalmann (`assets/fonts/LICENSE-cormorant-garamond.txt`)
+- Inter — Rasmus Andersson (`assets/fonts/LICENSE-inter.txt`)
+
+## Textures et photo d’illustration (CC0 1.0)
+
+Utilisées uniquement sur la maquette fictive « Atelier Exemple ». Ce ne sont pas des photos de chantiers réels liés à ce site.
+
+| Fichier(s) | Sujet | Auteur | Source | Licence |
 |---|---|---|---|---|
-| `assets/img/hero-cote-*.webp`, `assets/img/og-image.jpg` | Côte de granit au crépuscule (Perros-Guirec) | le Sixième Rêve | https://unsplash.com/photos/a-beach-with-rocks-and-water-at-dusk-pIkvLMlvVH0 | Unsplash License |
-| `assets/img/demo-apercu-*.webp`, `demo-gite/img/maison-*.webp`, `demo-gite/img/og-demo.jpg` | Maison en pierre et phare, Bretagne | Thierry Coulon | https://www.pexels.com/photo/rustic-stone-cottage-and-lighthouse-in-bretagne-36682651/ | Pexels License |
-| `demo-gite/img/chambre-*.webp` | Lit en linge blanc | Liz Vo | https://unsplash.com/photos/a-bed-with-white-sheets-and-white-pillows-pl3sj3DigxM | Unsplash License |
-| `demo-gite/img/petit-dejeuner-*.webp` | Café et viennoiserie | Esra Afşar | https://unsplash.com/photos/a-cup-of-coffee-and-a-croissant-on-a-table-f_i4EVPDsnQ | Unsplash License |
-| `demo-gite/img/cote-*.webp` | Côte rocheuse (Pointe du Raz) | Eric Barbeau | https://unsplash.com/photos/waves-crash-against-a-rocky-coastline-under-blue-sky-DRIq_0-l7gw | Unsplash License |
-| `demo-gite/img/plage-*.webp` | Plage et rochers, Bretagne | aleida van der Beek | https://unsplash.com/photos/a-rocky-beach-with-a-tree-1kCxZM4oX0o | Unsplash License |
-
-Ces photos illustrent une maquette : elles ne représentent aucun établissement réel associé à ce site.
-
-## Polices (auto-hébergées)
-
-- Cormorant Garamond — Christian Thalmann, SIL Open Font License 1.1 (`assets/fonts/LICENSE-cormorant-garamond.txt`)
-- Inter — Rasmus Andersson, SIL Open Font License 1.1 (`assets/fonts/LICENSE-inter.txt`)
+| `demo-artisan/img/cream-*.webp` | Texture de mur crème | Sisters.seamless | https://commons.wikimedia.org/wiki/File:Cream_textured_coat_finish_clean_seamless_building_wall_texture.jpg | CC0 1.0 |
+| `demo-artisan/img/brown-*.webp` | Texture de mur brun brossé | Sisters.seamless | https://commons.wikimedia.org/wiki/File:Brown_brushed_painted_slightly_worn_aged_seamless_concrete_building_wall_texture.jpg | CC0 1.0 |
+| `demo-artisan/img/burgundy-*.webp` | Texture de plâtre bordeaux | Sisters.seamless | https://commons.wikimedia.org/wiki/File:Burgundy_rough_cast_finish_clean_seamless_plaster_building_wall_texture.jpg | CC0 1.0 |
+| `demo-artisan/img/grey-*.webp` | Texture de plâtre gris strié | Sisters.seamless | https://commons.wikimedia.org/wiki/File:Grey_rough_scrapped_finish_plaster_horizontal_stripes_divided_building_wall_texture.jpg | CC0 1.0 |
+| `demo-artisan/img/bucket-*.webp` | Seau et pinceau (détail recadré, sans marque visible) | Ionenlaser | https://commons.wikimedia.org/wiki/File:Paint_bucket_and_brush.jpg | CC0 1.0 |
