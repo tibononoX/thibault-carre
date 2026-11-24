@@ -15,7 +15,7 @@ python3 -m http.server 8000
 # maquette : http://localhost:8000/demo-artisan/
 ```
 
-Sur GitHub Pages, l’adresse prévue est `https://tibononox.github.io/portfolio-gites/`.
+Sur GitHub Pages, l’adresse prévue est `https://tibononox.github.io/thibault-carre/`.
 
 ## Contenu
 
